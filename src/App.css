@@ -37,8 +37,33 @@
 .gameoptions-buttons {
   padding: 1rem;
   cursor: pointer;
+  width: 50%;
+  background-color: transparent;
+  border: white 1px solid;
+  color: white;
 }
-
+.gameoptions-buttons:hover {
+  background-color: black;
+  animation: wiggle 3s infinite;
+  font-size: 1rem;
+}
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  3% {
+    transform: rotate(-4deg);
+  }
+  4% {
+    transform: rotate(4deg);
+  }
+  5% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 .box {
   display: flex;
   flex-direction: column;

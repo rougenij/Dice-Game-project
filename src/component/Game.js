@@ -155,6 +155,7 @@ class Game extends React.Component {
           isWinner={this.state.player1winner}
           totalScore={this.state.player1totalscore}
           currentScore={this.state.player1currentscore}
+          iconclass="bx bx-dice-1"
         />
         <GameOptions
           diceImgs={this.state.dices}
@@ -172,6 +173,7 @@ class Game extends React.Component {
           isWinner={this.state.player2winner}
           totalScore={this.state.player2totalscore}
           currentScore={this.state.player2currentscore}
+          iconclass="bx bx-dice-2"
         />
       </div>
     );

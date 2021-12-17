@@ -13,11 +13,23 @@ function GameOptions(props) {
           props.value(e.target.value);
         }}
       ></input>
-      <Button text="New Game" handleClick={props.newGameHandle} />
+      <Button
+        text="New Game"
+        handleClick={props.newGameHandle}
+        iconclass="fas fa-play"
+      />
       <Dice source={props.diceImgs[0]} />
       <Dice source={props.diceImgs[1]} />
-      <Button text="Roll Dice" handleClick={props.rollHandle} />
-      <Button text="Hold" handleClick={props.holdHandle} />
+      <Button
+        text="Roll Dice"
+        handleClick={props.rollHandle}
+        iconclass="fas fa-dice"
+      />
+      <Button
+        text="Hold"
+        handleClick={props.holdHandle}
+        iconclass="fas fa-pause"
+      />
     </div>
   );
 }
