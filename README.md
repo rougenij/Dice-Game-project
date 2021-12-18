@@ -8,15 +8,15 @@
 
 # Project wireframe
 ## I used Figma to draw the project at first and thats what i got
-![Figma1](images/Project-WireFrame.jpg)
-![Figma1](images/PlayerComponent-WireFrame.jpg)
-![Figma1](images/GameSettings-WireFrame.jpg)
+![Figma1](Images/Project-WireFrame.jpg)
+![Figma1](Images/PlayerComponent-WireFrame.jpg)
+![Figma1](Images/GameSettings-WireFrame.jpg)
 
 # Project Build
 ## This is how the game looks like :
-![Main](images/MainScreen.jpg)
+![Main](Images/MainScreen.jpg)
 ## When you win a game :
-![Figma1](images/WinScreen.jpg)
+![Figma1](Images/WinScreen.jpg)
 
 # Project Funcions
 # I used multiple functions to build the logic of this game
