@@ -28,7 +28,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background: #cb08fb;
+  background: #a741c0;
   width: 20%;
 }
 .gameoptions-container > p {
@@ -110,15 +110,18 @@
 }
 
 .currentplayer {
-  background-color: rgb(97, 96, 96);
+  background-color: rgb(83, 78, 78);
   color: white;
   font-size: 3rem;
 }
 .currentplayer h1 {
-  color: rgb(209, 66, 66);
+  color: rgb(226, 43, 43);
 }
 .Winner {
   background-color: rgb(145, 245, 245);
   color: rgb(250, 53, 53);
   font-size: 5rem;
+}
+.gameoptions-container p {
+  color: rgb(204, 199, 199);
 }
