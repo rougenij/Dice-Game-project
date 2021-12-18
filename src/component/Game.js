@@ -107,12 +107,14 @@ class Game extends React.Component {
         newState.player1winner = "Winner";
         newState.player2current = "";
         newState.player1currentscore = "";
+        newState.text = "Click on new Game to begin a new one";
       } else if (newState.player2totalscore > this.state.pointsToWin) {
         newState.winner = true;
         newState.player2name = "Winner";
         newState.player2winner = "Winner";
         newState.player1current = "";
         newState.player2currentscore = "";
+        newState.text = "Click on new Game to begin a new one";
       }
       console.log(newState);
       this.setState(newState);

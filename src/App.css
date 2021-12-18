@@ -9,6 +9,7 @@
 }
 
 .game-container {
+  background-color: rgb(207, 205, 205);
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -109,13 +110,15 @@
 }
 
 .currentplayer {
-  background-color: grey;
+  background-color: rgb(97, 96, 96);
   color: white;
   font-size: 3rem;
 }
-
+.currentplayer h1 {
+  color: rgb(209, 66, 66);
+}
 .Winner {
-  background-color: cyan;
-  color: red;
+  background-color: rgb(145, 245, 245);
+  color: rgb(250, 53, 53);
   font-size: 5rem;
 }
