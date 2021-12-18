@@ -8,8 +8,14 @@ function GameOptions(props) {
     <div className="gameoptions-container">
       <p>{props.text}</p>
       <input
+        placeholder={"Input Field"}
         disabled={props.disabled}
+        type={"number"}
+        min={0}
         onChange={(e) => {
+          if (e.target.value < 0) {
+            e.target.value = 0;
+          }
           props.value(e.target.value);
         }}
       ></input>
