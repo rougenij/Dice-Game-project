@@ -6,7 +6,7 @@ import "../App.css";
 function GameOptions(props) {
   return (
     <div className="gameoptions-container">
-      <p>{props.text}</p>
+      <p className="gameoptions-text">{props.text}</p>
       <input
         placeholder={"Input Field"}
         disabled={props.disabled}
