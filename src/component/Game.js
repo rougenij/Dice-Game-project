@@ -140,12 +140,13 @@ class Game extends React.Component {
   };
   handleInput = (input) => {
     if (input === "" || input === undefined) {
-      console.log("im in");
       this.setState({ pointsToWin: 100 });
     } else {
       this.setState({ pointsToWin: input });
     }
   };
+
+  handleShowRules = () => {};
   render() {
     return (
       <div className="game-container">
